@@ -16,6 +16,6 @@ def quick_sort(sort_nums, begin=0, end=None):
         quick(sort_nums, begin, part-1)
         quick(sort_nums, part+1, end)
     return quick(sort_nums, begin, end)
-nums = [54, 43, 3, 11, 0]
+nums = [84, 56, 90, 4, 35, 14, 22, 38, 77, 85, 100, 5, 17]
 quick_sort(nums)
 print(nums)
